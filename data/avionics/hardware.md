@@ -3,6 +3,7 @@
 [Arduino](#arduino)  
 [Raspberry Pi](#raspberry-pi)   
 [M3 Avionics](#m3-avionics)  
+[Pixhawk](#pixhawk)  
 
 ## Arduino
 
@@ -39,3 +40,16 @@
 | Open-source | Designed around somebody else's rocket |
 | | Poorly documented |
 | | Appears large and heavy |
+
+## Pixhawk
+
+| Pros          | Cons          |
+| ------------- | ------------- |
+| High level of sensor integration | Designed for drones, not rockets |
+| Vibration design considerations | Unfamiliar programming environment |
+| High level of redundancy | Expensive |
+| Many variations | Many variations |
+
+Link to main page: http://pixhawk.org/
+
+I could not find any examples of Pixhawk being used in spaceflight, however it is very common in the UAS industry.  UND owns several Pixhawk avionics units.
