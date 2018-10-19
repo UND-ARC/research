@@ -1,0 +1,14 @@
+# name
+name: UND-ARC research site
+
+# description
+description: A website containing the sum of all human knowledge.
+
+# site theme
+theme: jekyll-theme-minimal
+
+# author
+author: UND-ARC
+#author_email: 
+
+#show_downloads: true
