@@ -18,8 +18,8 @@
 
 ### Known examples
 
-- https://www.instructables.com/id/Arduino-Powered-Rocket-Guidance-System/
-- http://web.mit.edu/rocketteam/www/usli/2011-12/MIT%20RT%20CDR%202012.pdf
+- [Arduino powered rocket guidance system](https://www.instructables.com/id/Arduino-Powered-Rocket-Guidance-System/)
+- [MIT CDR mentioning Arduino](http://web.mit.edu/rocketteam/www/usli/2011-12/MIT%20RT%20CDR%202012.pdf)
 
 ## Raspberry Pi
 
@@ -33,7 +33,8 @@
 
 ### Known examples
 
-- https://www.raspberrypi.org/blog/rocket-man/ / http://realflightsystems.com/wordpress/?page_id=722
+- [Stripped-down Pi on small rocket](https://www.raspberrypi.org/blog/rocket-man/)
+- [Another reference to the same thing](http://realflightsystems.com/wordpress/?page_id=722)
 
 ## M3 Avionics
 
@@ -52,6 +53,6 @@
 | High level of redundancy | Expensive |
 | Many variations | Many variations |
 
-Link to main page: http://pixhawk.org/
+Link to main page: [Pixhawk](http://pixhawk.org/)
 
 I could not find any examples of Pixhawk being used in spaceflight, however it is very common in the UAS industry.  UND owns several Pixhawk avionics units.
