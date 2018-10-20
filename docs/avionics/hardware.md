@@ -90,6 +90,8 @@ Designed for general-purpose computations.
 
 **Link to page:** [BeagleBone Black](http://beagleboard.org/black)
 
+**[Vanderbilt CDR using BBB](https://www.vanderbilt.edu/usli/wp-content/uploads/sites/146/2016/09/CDR-1.pdf)**
+
 ### Enhanced
 
 Designed to be an "enhanced" version of the [BeagleBone Black](#black).
