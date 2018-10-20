@@ -2,10 +2,15 @@
 
 # Avionics Hardware
 
-[Arduino](#arduino)  
-[Raspberry Pi](#raspberry-pi)   
-[M3 Avionics](#m3-avionics)  
-[Pixhawk](#pixhawk)  
+- [Arduino](#arduino)  
+- [Raspberry Pi](#raspberry-pi)   
+- [M3 Avionics](#m3-avionics)  
+- [Pixhawk](#pixhawk)  
+- [Beaglebone](#beaglebone)  
+  - [Beaglebone Blue](#blue)
+  - [Beaglebone Black](#black)
+  - [Beaglebone Enhanced](#enhanced)
+
 
 ## Arduino
 
@@ -56,3 +61,45 @@
 Link to main page: [Pixhawk](http://pixhawk.org/)
 
 I could not find any examples of Pixhawk being used in spaceflight, however it is very common in the UAS industry.  UND owns several Pixhawk avionics units.
+
+## Beaglebone
+
+Small SOC Linux-based computers.  Comes in multiple variations.
+
+### Blue
+
+Designed for robotics.
+
+| Pros          | Cons         |
+| ------------- | ------------ |
+| High level of sensor integration | Not designed for high vibration |
+| Extensive documentation | Expensive (not very) |
+| Runs Debian Linux |
+
+**Link to page:** [BeagleBone Blue](https://beagleboard.org/blue)
+
+### Black
+
+Designed for general-purpose computations.
+
+| Pros           | Cons        |
+| -------------- | ----------- |
+| Large number of I/O pins | Not designed for high vibration |
+| Small size | Not designed for sensor integration |
+| Integrated WiFi |
+
+**Link to page:** [BeagleBone Black](http://beagleboard.org/black)
+
+### Enhanced
+
+Designed to be an "enhanced" version of the [BeagleBone Black](#black).
+
+| Pros          | Cons          |
+| ------------- | ------------- |
+| Onboard sensors | Not designed for high vibration |
+| Onboard WiFi/BT | Hard to find for purchase |
+| Large number of I/O pins |
+| Inexpensive (~$70) |
+
+**Link to page:** [BeagleBone Enhanced](https://www.sancloud.co.uk/?page_id=254)  
+Check the dropdown menu labelled "BeagleBone Enhanced" for more hardware extensions (extra antennas, rechargeable batteries)
