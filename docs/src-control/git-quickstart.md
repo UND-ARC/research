@@ -10,8 +10,9 @@
 
 ```bash
 wget https://github.com/UND-ARC/RepoTemplate/archive/master.zip
-unzip -j RepoTemplate-master.zip
-rm -rf .git
+unzip master.zip
+cp -r RepoTemplate-master/. .
+rm -rf .git RepoTemplate-master master.zip
 git init
 git remote add origin {URL from the front page of the new repo}
 git add .
