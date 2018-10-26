@@ -1,4 +1,4 @@
-[Back to Avionics](https://und-arc.github.io/research/avionics.index.html)
+[Back to Avionics](https://und-arc.github.io/research/avionics/index.html)
 
 # Raspberry Pi Flight Test
 
