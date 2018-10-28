@@ -40,7 +40,8 @@ Thumbs.db
 *.lnk
 .fuse_hidden*
 .directory
-.nfs*
+.nfs*d
+~*
 
 # Installer files #
 ###################
