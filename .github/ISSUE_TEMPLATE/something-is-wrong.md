@@ -1,3 +1,9 @@
+---
+name: "Bug" report
+about: Incorrect information, something not thought out, etc
+
+---
+
 **Summarize the issue as briefly and concisely as you can**  
 e.g. The description of PixHawk avionics in the `data/avionics/hardware.md`
 file is invalid because it was not designed with high vibration in mind.
