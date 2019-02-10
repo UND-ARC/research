@@ -9,8 +9,9 @@ Compiled here is a list of OpenRocket files.  Certain files must be run on the [
 
 ## Reports
 
-* [Interim report #1](https://github.com/UND-ARC/research/blob/update-site/Reports/Interim_1.docx)
-* [Preliminary budget](https://github.com/UND-ARC/research/blob/update-site/Budgeting/BillOfMaterials.xlsx)
+* [Interim report #1](https://github.com/UND-ARC/research/blob/master/Reports/Interim_1.docx)
+* [Preliminary budget](https://github.com/UND-ARC/research/blob/master/Budgeting/BillOfMaterials.xlsx)
+* [PDR Outline Format](https://github.com/UND-ARC/research/blob/master/Reports/Phase 1 Report Template.pdf)
 
 ## Misc Docs
 
