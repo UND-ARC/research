@@ -35,6 +35,10 @@
 | High-level programming | High-level programming -> inefficient? |
 | Onboard read-write storage | No hardware interrupts |
 
+<div style="text-align:center">
+    <!-- sorry about this if you're reading this file as text or offline... -->
+    <img src="https://github.com/und-arc/Research/raw/master/docs/avionics/pi-pinout-diagram.png"/>
+</div>
 
 ### Known examples
 
@@ -87,6 +91,11 @@ Designed for general-purpose computations.
 | Large number of I/O pins | Not designed for high vibration |
 | Small size | Not designed for sensor integration |
 | Integrated WiFi |
+
+<div style="text-align:center">
+    <!-- sorry about this if you're reading this file as text or offline... -->
+    <img src="https://github.com/und-arc/Research/raw/master/docs/avionics/beaglebone-black-pinout.jpg"/>
+</div>
 
 **Link to page:** [BeagleBone Black](http://beagleboard.org/black)
 
