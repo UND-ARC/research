@@ -56,3 +56,10 @@ Thumbs.db
 ###################################
 .spyproject/
 .idea/
+
+# Useless TeX files #
+#####################
+*.aux
+*.log
+*.syntax.gz
+
