@@ -28,7 +28,7 @@
 
 ## Raspberry Pi
 
-[More data/abbreviated specsheet here](https://und-arc.github.cio/research/avionics/raspberrypi.md)
+[More data/abbreviated specsheet here](https://und-arc.github.cio/research/avionics/raspberrypi.html)
 
 | Pros          | Cons          |
 | ------------- | ------------- |
