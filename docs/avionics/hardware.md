@@ -28,6 +28,8 @@
 
 ## Raspberry Pi
 
+[More data/abbreviated specsheet here](https://und-arc.github.cio/research/avionics/raspberrypi.md)
+
 | Pros          | Cons          |
 | ------------- | ------------- |
 | Any language | Runs operating system: background task interference |
