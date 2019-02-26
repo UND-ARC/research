@@ -1,0 +1,12 @@
+AVIONICS SYSTEMS BREAKDOWN
+
+1. Telemetry: Sending & receiving signals to/from Rocket; save data to rocket HDD and ground computer as well as format the received raw data into something readable and useful on the ground computer
+- Important data to be considered - Altitude, velocity, and acceleration
+
+2. Engine: Control the fuel for the engine
+
+3. Recovery: What altitude/atmospheric pressure to deploy parachutes
+
+4. Abort procedure: A system to release fuel, separate nose-cone with the electronics containing data, and initiate recovery procedure in the event of launch path failure
+
+And just to be clear, we have recently confirmed that we will not be controlling the movement of the rocket at all during flight.
