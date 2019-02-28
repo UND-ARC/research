@@ -3,6 +3,7 @@
 * See LICENCE file for permissions
 * This repo is for all research related to all avionics systems for ARC projects
 * This includes: OpenRocket software for testing, trade studies, reports, and any other relevant information
+* If you are unsure where to start, read through the Using-GitHub folder!
 
 ## Links:
 
