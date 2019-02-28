@@ -25,6 +25,7 @@ pre-existing conditions:
 - A minor clicking sound mirroring the frequency of the flashing power indicator light.
 - When issued a soft shutdown, the Pi's status lights indicate power ON and disk read OFF.  No flashing/clicking.
 - A 128GB FAT32-formatted flash drive was tested on all 4 USB ports and was not visible to any user on the Pi.
+- USB multimeter on the power supply shows occasional drops in voltage, from the normal 5.14V down to about 4.96.  While within the range, immediately after the voltage returns to normal the current spikes to almost 2 amps (well above the idling 0.27-0.35).
 
 ### General status
 
