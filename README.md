@@ -9,3 +9,4 @@
 
 * [Linux Command Line Tutorial](http://linuxcommand.org/lc3_learning_the_shell.php)
 * [Slightly-Confusing Repo Website](https://und-arc.github.io/research/)
+* [Ground control computer build](https://pcpartpicker.com/user/geghost33/saved/#view=WMN3bv)
