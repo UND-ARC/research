@@ -2,9 +2,9 @@
 
 # Avionics
 
-**[Hardware](https://und-arc.github.io/research/avionics/hardware.html)**  
-**[Programming Languages](https://und-arc.github.io/research/avionics/languages.html)**    
+**[Hardware](https://und-arc.github.io/research/Avionics/hardware.html)**  
+**[Programming Languages](https://und-arc.github.io/research/Avionics/languages.html)**    
 
 # Tests
 
-**[Raspberry Pi Flight Test](https://und-arc.github.io/research/avionics/stripe-test/raspi-before-after.html)**
+**[Raspberry Pi Flight Test](https://und-arc.github.io/research/Avionics/stripe-test/raspi-before-after.html)**
