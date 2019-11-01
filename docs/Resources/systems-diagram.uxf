@@ -1,52 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.3.0">
-  <zoom_level>5</zoom_level>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>605</x>
-      <y>325</y>
-      <w>75</w>
-      <h>35</h>
-    </coordinates>
-    <panel_attributes>Heartbeat
---
--- FADEC malfunction
-   detection</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>605</x>
-      <y>285</y>
-      <w>75</w>
-      <h>35</h>
-    </coordinates>
-    <panel_attributes>Heartbeat
---
--- AFCS malfunction
-   detection</panel_attributes>
-    <additional_attributes/>
-  </element>
+  <zoom_level>6</zoom_level>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>275</y>
-      <w>245</w>
-      <h>135</h>
+      <x>546</x>
+      <y>162</y>
+      <w>246</w>
+      <h>342</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>470.0;250.0;270.0;250.0;270.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>390.0;550.0;310.0;550.0;310.0;10.0;10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>140</y>
-      <w>55</w>
-      <h>40</h>
+      <x>288</x>
+      <y>84</y>
+      <w>66</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>IMU
 MPU6050
@@ -58,10 +30,10 @@ MPU6050
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>405</x>
-      <y>140</y>
-      <w>75</w>
-      <h>40</h>
+      <x>360</x>
+      <y>84</y>
+      <w>90</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Barometer
 LPS331AP
@@ -73,10 +45,10 @@ Ambient Temperature</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
-      <y>140</y>
-      <w>70</w>
-      <h>40</h>
+      <x>600</x>
+      <y>84</y>
+      <w>84</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>CPU
 TI AM3358BZCZ100
@@ -88,10 +60,10 @@ x32 Coretex-A8
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>535</x>
-      <y>140</y>
-      <w>30</w>
-      <h>40</h>
+      <x>516</x>
+      <y>84</y>
+      <w>36</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>RAM
 1024MB
@@ -103,10 +75,10 @@ DDR3L</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>140</y>
-      <w>30</w>
-      <h>40</h>
+      <x>558</x>
+      <y>84</y>
+      <w>36</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Storage
 4GB
@@ -118,10 +90,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>455</x>
-      <y>200</y>
-      <w>95</w>
-      <h>50</h>
+      <x>420</x>
+      <y>156</y>
+      <w>114</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Sensor Fusion
 --
@@ -134,10 +106,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>200</y>
-      <w>80</w>
-      <h>35</h>
+      <x>288</x>
+      <y>156</y>
+      <w>96</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>INS
 --
@@ -148,10 +120,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>240</y>
-      <w>90</w>
-      <h>35</h>
+      <x>288</x>
+      <y>204</y>
+      <w>108</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Atmospheric Nav
 --
@@ -162,10 +134,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>280</y>
-      <w>90</w>
-      <h>35</h>
+      <x>288</x>
+      <y>252</y>
+      <w>108</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>GNSS
 --
@@ -176,10 +148,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>320</y>
-      <w>90</w>
-      <h>35</h>
+      <x>288</x>
+      <y>300</y>
+      <w>108</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Radionavigation
 --
@@ -190,10 +162,10 @@ uSD</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>420</x>
-      <y>200</y>
-      <w>45</w>
-      <h>15</h>
+      <x>378</x>
+      <y>156</y>
+      <w>54</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>70.0;10.0;10.0;10.0</additional_attributes>
@@ -201,10 +173,10 @@ uSD</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
-      <y>210</y>
-      <w>35</w>
-      <h>40</h>
+      <x>390</x>
+      <y>168</y>
+      <w>42</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;10.0;10.0;10.0;60.0</additional_attributes>
@@ -212,10 +184,10 @@ uSD</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
-      <y>220</y>
-      <w>35</w>
-      <h>80</h>
+      <x>390</x>
+      <y>180</y>
+      <w>42</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;20.0;10.0;20.0;140.0;10.0;140.0</additional_attributes>
@@ -223,10 +195,10 @@ uSD</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>430</x>
-      <y>230</y>
-      <w>35</w>
-      <h>110</h>
+      <x>390</x>
+      <y>192</y>
+      <w>42</w>
+      <h>132</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>50.0;10.0;30.0;10.0;30.0;200.0;10.0;200.0</additional_attributes>
@@ -234,10 +206,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>255</y>
-      <w>105</w>
-      <h>50</h>
+      <x>450</x>
+      <y>222</y>
+      <w>126</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Guidance
 --
@@ -250,10 +222,10 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>480</x>
-      <y>310</y>
-      <w>105</w>
-      <h>40</h>
+      <x>450</x>
+      <y>288</y>
+      <w>126</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Abort
 --
@@ -265,32 +237,32 @@ uSD</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>455</x>
-      <y>245</y>
-      <w>35</w>
-      <h>100</h>
+      <x>426</x>
+      <y>210</y>
+      <w>36</w>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>50.0;180.0;10.0;180.0;10.0;10.0</additional_attributes>
+    <additional_attributes>40.0;180.0;10.0;180.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>460</x>
-      <y>245</y>
+      <x>432</x>
+      <y>210</y>
       <w>30</w>
-      <h>40</h>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>40.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
+    <additional_attributes>30.0;60.0;10.0;60.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>810</x>
-      <y>260</y>
-      <w>165</w>
-      <h>185</h>
+      <x>774</x>
+      <y>324</y>
+      <w>198</w>
+      <h>222</h>
     </coordinates>
     <panel_attributes>Teensy 3.6
 FADEC
@@ -307,10 +279,10 @@ FADEC
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>815</x>
-      <y>285</y>
-      <w>60</w>
-      <h>40</h>
+      <x>780</x>
+      <y>354</y>
+      <w>72</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Microprocessor
 Coretex-M4F
@@ -322,10 +294,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>880</x>
-      <y>285</y>
-      <w>30</w>
-      <h>40</h>
+      <x>858</x>
+      <y>354</y>
+      <w>36</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>RAM
 256KB
@@ -336,10 +308,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>915</x>
-      <y>285</y>
-      <w>50</w>
-      <h>35</h>
+      <x>900</x>
+      <y>354</y>
+      <w>60</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Storage
 --
@@ -350,10 +322,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>810</x>
-      <y>55</y>
-      <w>165</w>
-      <h>185</h>
+      <x>774</x>
+      <y>78</y>
+      <w>198</w>
+      <h>222</h>
     </coordinates>
     <panel_attributes>Teensy 3.6
 AFCS
@@ -370,10 +342,10 @@ AFCS
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>815</x>
-      <y>80</y>
-      <w>60</w>
-      <h>40</h>
+      <x>780</x>
+      <y>108</y>
+      <w>72</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Microprocessor
 Coretex-M4F
@@ -385,10 +357,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>880</x>
-      <y>80</y>
-      <w>30</w>
-      <h>40</h>
+      <x>858</x>
+      <y>108</y>
+      <w>36</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>RAM
 256KB
@@ -399,10 +371,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>915</x>
-      <y>80</y>
-      <w>50</w>
-      <h>35</h>
+      <x>900</x>
+      <y>108</y>
+      <w>60</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Storage
 --
@@ -413,10 +385,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>815</x>
-      <y>130</y>
-      <w>70</w>
-      <h>35</h>
+      <x>780</x>
+      <y>168</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Heartbeat
 --
@@ -427,10 +399,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>815</x>
-      <y>335</y>
-      <w>70</w>
-      <h>35</h>
+      <x>780</x>
+      <y>414</y>
+      <w>84</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Heartbeat
 --
@@ -441,10 +413,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
-      <y>325</y>
-      <w>75</w>
-      <h>35</h>
+      <x>600</x>
+      <y>258</y>
+      <w>90</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Heartbeat
 --
@@ -455,10 +427,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
-      <y>285</y>
-      <w>75</w>
-      <h>35</h>
+      <x>600</x>
+      <y>210</y>
+      <w>90</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>Heartbeat
 --
@@ -469,54 +441,43 @@ x32 ARM
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
-      <y>150</y>
-      <w>150</w>
-      <h>165</h>
+      <x>684</x>
+      <y>192</y>
+      <w>108</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>280.0;10.0;70.0;10.0;70.0;310.0;10.0;310.0</additional_attributes>
+    <additional_attributes>160.0;10.0;70.0;10.0;70.0;50.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>675</x>
-      <y>340</y>
-      <w>150</w>
-      <h>25</h>
+      <x>684</x>
+      <y>270</y>
+      <w>108</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>280.0;30.0;70.0;30.0;70.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>160.0;280.0;70.0;280.0;70.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>310</y>
-      <w>35</w>
-      <h>30</h>
+      <x>570</x>
+      <y>222</y>
+      <w>42</w>
+      <h>78</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;40.0;30.0;40.0;30.0;10.0;50.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>580</x>
-      <y>335</y>
-      <w>35</w>
-      <h>15</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+    <additional_attributes>10.0;110.0;30.0;90.0;30.0;30.0;50.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>815</x>
-      <y>170</y>
-      <w>85</w>
-      <h>45</h>
+      <x>780</x>
+      <y>216</y>
+      <w>102</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>AFCS
 --
@@ -528,10 +489,10 @@ x32 ARM
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>465</x>
-      <y>290</y>
-      <w>25</w>
-      <h>45</h>
+      <x>432</x>
+      <y>264</y>
+      <w>30</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>30.0;70.0;10.0;70.0;10.0;10.0;30.0;10.0</additional_attributes>
@@ -539,10 +500,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>905</x>
-      <y>170</y>
-      <w>60</w>
-      <h>50</h>
+      <x>888</x>
+      <y>216</y>
+      <w>72</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Servo Control
 --
@@ -555,10 +516,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>815</x>
-      <y>375</y>
-      <w>85</w>
-      <h>45</h>
+      <x>780</x>
+      <y>462</y>
+      <w>102</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>FADEC
 --
@@ -570,10 +531,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>905</x>
-      <y>375</y>
-      <w>60</w>
-      <h>50</h>
+      <x>888</x>
+      <y>462</y>
+      <w>72</w>
+      <h>60</h>
     </coordinates>
     <panel_attributes>Servo Control
 --
@@ -586,10 +547,10 @@ x32 ARM
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>415</y>
-      <w>50</w>
-      <h>30</h>
+      <x>858</x>
+      <y>510</y>
+      <w>60</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;20.0;80.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
@@ -597,10 +558,10 @@ x32 ARM
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>350</y>
-      <w>20</w>
-      <h>35</h>
+      <x>858</x>
+      <y>432</y>
+      <w>24</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>20.0;50.0;20.0;10.0;10.0;10.0</additional_attributes>
@@ -608,10 +569,10 @@ x32 ARM
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>210</y>
-      <w>50</w>
-      <h>30</h>
+      <x>858</x>
+      <y>264</y>
+      <w>60</w>
+      <h>36</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>80.0;20.0;80.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
@@ -619,10 +580,10 @@ x32 ARM
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>880</x>
-      <y>145</y>
-      <w>20</w>
-      <h>35</h>
+      <x>858</x>
+      <y>186</y>
+      <w>24</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>20.0;50.0;20.0;10.0;10.0;10.0</additional_attributes>
@@ -630,10 +591,10 @@ x32 ARM
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>110</y>
-      <w>345</w>
-      <h>255</h>
+      <x>282</x>
+      <y>48</y>
+      <w>414</w>
+      <h>306</h>
     </coordinates>
     <panel_attributes>BeagleBone Enhanced WiFi-V1G
 Brain/Main controller
@@ -651,21 +612,21 @@ Brain/Main controller
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>580</x>
-      <y>185</y>
-      <w>245</w>
-      <h>95</h>
+      <x>534</x>
+      <y>156</y>
+      <w>258</w>
+      <h>96</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>470.0;10.0;270.0;10.0;270.0;170.0;10.0;170.0</additional_attributes>
+    <additional_attributes>410.0;140.0;360.0;140.0;360.0;10.0;10.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>350</x>
-      <y>175</y>
-      <w>15</w>
-      <h>35</h>
+      <x>294</x>
+      <y>126</y>
+      <w>18</w>
+      <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
@@ -673,10 +634,10 @@ Brain/Main controller
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>425</x>
-      <y>175</y>
-      <w>15</w>
-      <h>75</h>
+      <x>384</x>
+      <y>126</y>
+      <w>18</w>
+      <h>90</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
@@ -684,10 +645,10 @@ Brain/Main controller
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>120</y>
-      <w>100</w>
-      <h>60</h>
+      <x>120</x>
+      <y>132</y>
+      <w>120</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>IMU
 ICM20948
@@ -701,10 +662,10 @@ Onboard sensor fusion (DMP)</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>185</y>
-      <w>80</w>
-      <h>45</h>
+      <x>132</x>
+      <y>210</y>
+      <w>96</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>Barometer
 MS5803-14BA
@@ -716,10 +677,10 @@ Ambient Temperature</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>130</x>
-      <y>235</y>
-      <w>105</w>
-      <h>45</h>
+      <x>120</x>
+      <y>270</y>
+      <w>126</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes>GNSS
 ZED-F9P
@@ -731,43 +692,43 @@ NMEA output</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
-      <y>165</y>
-      <w>130</w>
-      <h>65</h>
+      <x>234</x>
+      <y>174</y>
+      <w>66</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>240.0;110.0;210.0;110.0;210.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>205</x>
-      <y>205</y>
-      <w>150</w>
-      <h>60</h>
+      <x>222</x>
+      <y>216</y>
+      <w>78</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>280.0;100.0;240.0;100.0;240.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>110.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>230</x>
-      <y>255</y>
-      <w>125</w>
-      <h>55</h>
+      <x>240</x>
+      <y>270</y>
+      <w>60</w>
+      <h>18</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>230.0;90.0;180.0;90.0;180.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>340</x>
-      <y>375</y>
-      <w>345</w>
-      <h>200</h>
+      <x>282</x>
+      <y>402</y>
+      <w>414</w>
+      <h>240</h>
     </coordinates>
     <panel_attributes>BeagleBone Enhanced WiFi-V1G
 Communication/Radionavigation controller
@@ -785,10 +746,10 @@ Communication/Radionavigation controller
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>345</x>
-      <y>400</y>
-      <w>55</w>
-      <h>40</h>
+      <x>288</x>
+      <y>432</y>
+      <w>66</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>IMU
 MPU6050
@@ -800,10 +761,10 @@ MPU6050
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>405</x>
-      <y>400</y>
-      <w>75</w>
-      <h>40</h>
+      <x>360</x>
+      <y>432</y>
+      <w>90</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Barometer
 LPS331AP
@@ -815,10 +776,10 @@ Ambient Temperature</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>535</x>
-      <y>400</y>
-      <w>30</w>
-      <h>40</h>
+      <x>516</x>
+      <y>432</y>
+      <w>36</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>RAM
 1024MB
@@ -830,10 +791,10 @@ DDR3L</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>400</y>
-      <w>30</w>
-      <h>40</h>
+      <x>558</x>
+      <y>432</y>
+      <w>36</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>Storage
 4GB
@@ -845,16 +806,311 @@ uSD</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
-      <y>400</y>
-      <w>70</w>
-      <h>40</h>
+      <x>600</x>
+      <y>432</y>
+      <w>84</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>CPU
 TI AM3358BZCZ100
 --
 x32 Coretex-A8
 2x PRU-ICSS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>240</y>
+      <w>48</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>954</x>
+      <y>486</y>
+      <w>48</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>504</y>
+      <w>96</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Formatter
+--
+-- Format &amp; compress
+   outbound data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>240</x>
+      <y>210</y>
+      <w>198</w>
+      <h>348</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;560.0;10.0;560.0;10.0;280.0;300.0;280.0;300.0;70.0;310.0;70.0;310.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>246</x>
+      <y>252</y>
+      <w>216</w>
+      <h>294</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>70.0;470.0;10.0;470.0;10.0;220.0;300.0;220.0;300.0;10.0;340.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>252</x>
+      <y>324</y>
+      <w>210</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;330.0;10.0;330.0;10.0;110.0;300.0;110.0;300.0;10.0;330.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>414</x>
+      <y>504</y>
+      <w>84</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Data Recording
+--
+-- Record all data
+   to onboard uSD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>510</y>
+      <w>48</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>492</x>
+      <y>474</y>
+      <w>84</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>606</x>
+      <y>552</y>
+      <w>84</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Outbound Telemetry
+--
+-- Transmit data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>522</y>
+      <w>240</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;80.0;50.0;80.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>774</x>
+      <y>552</y>
+      <w>120</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Unknown
+Telemetry Downlink
+--
+Hardware not yet decided on
+--
+Transmit telemetry data</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>564</y>
+      <w>102</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;50.0;80.0;50.0;80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>588</y>
+      <w>114</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Bidirectional Commlink
+--
+-- Two-way communication
+-- Support brain access</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>234</x>
+      <y>336</y>
+      <w>66</w>
+      <h>282</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0;10.0;450.0;90.0;450.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>108</x>
+      <y>582</y>
+      <w>120</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>Unknown
+Uplink &amp; Downlink
+--
+Hardware not yet decided on
+--
+Communications link</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>222</x>
+      <y>612</y>
+      <w>78</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;110.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>606</x>
+      <y>504</y>
+      <w>84</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Heartbeat
+--
+-- Brain malfunction
+   detection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>306</y>
+      <w>90</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>Heartbeat
+--
+-- Comm malfunction
+   detection</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>276</y>
+      <w>42</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;70.0;30.0;50.0;30.0;30.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>684</x>
+      <y>318</y>
+      <w>36</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;40.0;10.0;40.0;350.0;10.0;350.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>324</y>
+      <w>42</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;50.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>522</y>
+      <w>222</w>
+      <h>102</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;150.0;190.0;150.0;190.0;10.0;350.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>120</x>
+      <y>60</y>
+      <w>156</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>ARC vehicle avionics systems diagram
+Last update:
+201910312050
+Misha Turnbull
+style=wordwrap</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
