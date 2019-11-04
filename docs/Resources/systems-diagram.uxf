@@ -843,7 +843,7 @@ x32 Coretex-A8
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
+      <x>354</x>
       <y>510</y>
       <w>96</w>
       <h>54</h>
@@ -863,7 +863,7 @@ x32 Coretex-A8
       <h>348</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>80.0;560.0;10.0;560.0;10.0;280.0;300.0;280.0;300.0;70.0;310.0;70.0;310.0;10.0</additional_attributes>
+    <additional_attributes>220.0;560.0;10.0;560.0;10.0;280.0;300.0;280.0;300.0;70.0;310.0;70.0;310.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -874,7 +874,7 @@ x32 Coretex-A8
       <h>294</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>70.0;470.0;10.0;470.0;10.0;220.0;300.0;220.0;300.0;10.0;340.0;10.0</additional_attributes>
+    <additional_attributes>210.0;470.0;10.0;470.0;10.0;220.0;300.0;220.0;300.0;10.0;340.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -885,12 +885,12 @@ x32 Coretex-A8
       <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>60.0;330.0;10.0;330.0;10.0;110.0;300.0;110.0;300.0;10.0;330.0;10.0</additional_attributes>
+    <additional_attributes>200.0;330.0;10.0;330.0;10.0;110.0;300.0;110.0;300.0;10.0;330.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>396</x>
+      <x>480</x>
       <y>510</y>
       <w>84</w>
       <h>42</h>
@@ -904,7 +904,7 @@ x32 Coretex-A8
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
+      <x>444</x>
       <y>516</y>
       <w>48</w>
       <h>18</h>
@@ -915,13 +915,13 @@ x32 Coretex-A8
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>474</x>
+      <x>558</x>
       <y>480</y>
-      <w>84</w>
+      <w>30</w>
       <h>54</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>120.0;10.0;120.0;70.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;30.0;30.0;30.0;70.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -939,13 +939,13 @@ x32 Coretex-A8
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>360</x>
+      <x>444</x>
       <y>528</y>
-      <w>240</w>
-      <h>60</h>
+      <w>156</w>
+      <h>48</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>380.0;80.0;50.0;80.0;50.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>240.0;60.0;220.0;60.0;220.0;50.0;40.0;50.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -1096,7 +1096,7 @@ Communications link</panel_attributes>
       <h>102</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-&gt;&gt;&gt;&gt;</panel_attributes>
-    <additional_attributes>10.0;150.0;190.0;150.0;190.0;10.0;350.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;320.0;150.0;320.0;10.0;350.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Text</id>
@@ -1108,7 +1108,7 @@ Communications link</panel_attributes>
     </coordinates>
     <panel_attributes>ARC vehicle avionics systems diagram
 Last update:
-201911011144
+201911040948
 Misha Turnbull
 style=wordwrap</panel_attributes>
     <additional_attributes/>
@@ -1138,5 +1138,41 @@ NMEA output</panel_attributes>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>110.0;10.0;80.0;10.0;80.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>432</x>
+      <y>570</y>
+      <w>108</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>GNSS
+--
+-- Merge GNSS data
+   into location</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>204</x>
+      <y>348</y>
+      <w>240</w>
+      <h>246</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>380.0;390.0;20.0;390.0;20.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>594</y>
+      <w>66</w>
+      <h>18</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;90.0;10.0</additional_attributes>
   </element>
 </diagram>
