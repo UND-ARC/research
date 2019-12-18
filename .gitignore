@@ -62,4 +62,6 @@ Thumbs.db
 *.aux
 *.log
 *.syntax.gz
-
+*.bbl
+*.blg
+*.out
