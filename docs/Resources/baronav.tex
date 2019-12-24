@@ -224,6 +224,45 @@ Now, the point $(x_{2c}, y_{2c}, z_{2c})$ has been reduced if possible.  The ste
 be repeated with another point from another navigation source to further reduce error.
 
 \begin{figure*}[h]
+\begin{centering}
+\begin{tikzpicture}
+% Axes
+\draw[->] (0,0) -- (0,8);          \draw (0,8) node[anchor=south] {$\vec{Y}$};
+\draw[->] (0,0) -- (-1.75,-1.75);  \draw (-1.5,-1.5) node[anchor=north] {$\vec{Z}$};
+\draw[->] (0,0) -- (3,-1.5);       \draw (3,-1.5) node[anchor=north west] {$\vec{X}$};
+
+% X-plane offset:  26.57
+% Theta offset:    21.80
+% X+theta offsets: 48.37
+
+% Spacecraft point
+\draw (0,6) -- (2,5);
+\draw (3,5.5) node[anchor=west] {$(x_1, y_1, z_1)$};
+\draw[densely dotted] (2,5) -- (3,5.5);
+\draw[dashed] (2,5) -- (2,-1); 
+\draw (0,0) -- (2,5);
+
+% Errors in theta & deltaY -- alpha & beta
+\draw[red,rotate around={-48.37:(2,5)}] (2,5) ellipse (0.4478 and 0.316);
+\draw[densely dotted] (0,0) -- (2.297,4.665); % alpha below
+\draw[densely dotted] (0,0) -- (1.703,5.335); % alpha above
+\draw[densely dotted] (0,6.3896) -- (2,5.3896);  % beta above
+\draw[densely dotted] (0,5.6103) -- (2,4.6103);  % beta below
+
+%\draw[decorate,decoration={brace,amplitude=3pt},xshift=-2pt,yshift=0pt]
+%(0,0) -- (0,1.044) node[black,midway,yshift=0pt,xshift=-6pt] {$q'$};
+\draw[decorate,decoration={brace,amplitude=4pt},xshift=-2pt,yshift=0pt]
+  (0,0) -- (0,6) node[black,midway,yshift=0pt,xshift=-12pt] {$\Delta y$};
+\draw[decorate,decoration={brace,amplitude=4pt},xshift=2pt,yshift=0pt,mirror]
+  (0,6) -- (0,6.3896) node[black,midway,yshift=0pt,xshift=4pt] {$\beta$};
+
+\end{tikzpicture}
+\caption{Blown-up figure depicting all aspects of the problem}
+\label{fig:big}
+\end{centering}
+\end{figure*}
+
+\begin{figure*}[h]
 \begin{subequations}
 \begin{equation}
 s = \lVert\vec{v}\rVert t\tan(\alpha)
