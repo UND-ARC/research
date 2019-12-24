@@ -235,26 +235,36 @@ be repeated with another point from another navigation source to further reduce 
 % Theta offset:    21.80
 % X+theta offsets: 48.37
 
-% Spacecraft point
+% Spacecraft points
 \draw (0,6) -- (2,5);
-\draw (3,5.5) node[anchor=west] {$(x_1, y_1, z_1)$};
-\draw[densely dotted] (2,5) -- (3,5.5);
+\draw (3,4.2) node[anchor=west] {$(x_1, y_1, z_1)$};
+\draw[densely dotted] (2,5) -- (3,4.2);
 \draw[dashed] (2,5) -- (2,-1); 
 \draw (0,0) -- (2,5);
+\draw (0,0) node[anchor=east] {$(x_0, y_0, z_0)$};
+\draw (2,-1) node[anchor=north east] {$(x_1, y_0, z_1)$};
+\draw (0,6) node[anchor=south east] {$(x_0, y_1, z_0)$};
 
 % Errors in theta & deltaY -- alpha & beta
 \draw[red,rotate around={-48.37:(2,5)}] (2,5) ellipse (0.4478 and 0.316);
-\draw[densely dotted] (0,0) -- (2.297,4.665); % alpha below
-\draw[densely dotted] (0,0) -- (1.703,5.335); % alpha above
+\draw[densely dotted] (0,0) -- (2.297,4.665);    % alpha below
+\draw[densely dotted] (0,0) -- (1.703,5.335);    % alpha above
 \draw[densely dotted] (0,6.3896) -- (2,5.3896);  % beta above
 \draw[densely dotted] (0,5.6103) -- (2,4.6103);  % beta below
-
-%\draw[decorate,decoration={brace,amplitude=3pt},xshift=-2pt,yshift=0pt]
-%(0,0) -- (0,1.044) node[black,midway,yshift=0pt,xshift=-6pt] {$q'$};
 \draw[decorate,decoration={brace,amplitude=4pt},xshift=-2pt,yshift=0pt]
   (0,0) -- (0,6) node[black,midway,yshift=0pt,xshift=-12pt] {$\Delta y$};
-\draw[decorate,decoration={brace,amplitude=4pt},xshift=2pt,yshift=0pt,mirror]
-  (0,6) -- (0,6.3896) node[black,midway,yshift=0pt,xshift=4pt] {$\beta$};
+\draw[decorate,decoration={brace,amplitude=3pt},xshift=2pt,yshift=-1pt]
+  (0,6.3896) -- (0,6);
+\draw[decorate,decoration={brace,amplitude=3pt},xshift=2pt,yshift=-1pt]
+  (0,6) -- (0,5.6103);
+
+% Torus time!
+\draw[red,densely dotted] (0,6) ellipse (2.297 and 1.1485);    % inner boundary
+\draw[red,densely dotted] (0,6) ellipse (3.1926 and 1.8185);   % outer boundary
+\draw[red] (0,6) ellipse (2.7448 and 1.4835);                  % central ring
+\draw[red,rotate around={48.37:(-2,5)}] (-2,5) ellipse (0.4478 and 0.316);
+\draw[red,rotate around={-48.37:((-2,7)}] (-2,7) ellipse (0.4478 and 0.316);
+\draw[red,rotate around={48.37:(2,7)}] (2,7) ellipse (0.4478 and 0.316);
 
 \end{tikzpicture}
 \caption{Blown-up figure depicting all aspects of the problem}
