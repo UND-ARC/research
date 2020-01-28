@@ -2,9 +2,9 @@
 
 | Metric | Notes | Min | Typical | Max | Units |
 | ------ | ----- | --- | ------- | --- | ----- |
-| Length |       |     |         |     | mm    |
-| Width  |       |     |         |     |       |
-| Height |       |     |         |     |       |
+| Length |       | 87  | 89      | 92  | mm    |
+| Width  |       |     | 53      |     | mm    |
+| Height |       | 2   | 11      | 20  | mm    |
 | Weight |       |     |         |     |       |
 | Power draw |   | 230 | 430     | 490 | mA    |
 | Disconnected power draw | Power draw while plugged in, but off | 0 | 0 | 0 | mA |
